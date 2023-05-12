@@ -14,7 +14,7 @@ const linksSchema = new Schema(
 			type: String,
 		},
 		no_of_visits: {
-			type: String,
+			type: Number,
 			default: 0,
 		},
 		desc: {
